@@ -1,0 +1,57 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-image: url(./assets/Dreamy.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 8px;
+  margin-right: 10px;
+  width: 200px;
+}
+
+button {
+  padding: 10px;
+  background-color: rgb(165, 165, 14);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #666f05;
+}
+
+div strong {
+  margin-top: 20px;
+  display: block;
+  color: green;
+}
+
+h1 {
+  margin-bottom: 5rem;
+  color: darkred;
+}
